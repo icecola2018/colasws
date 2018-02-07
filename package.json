@@ -1,0 +1,31 @@
+{
+  "name": "colasws",
+  "version": "1.0.0",
+  "description": "Cola Static Web Server",
+  "preferGlobal": true,
+  "main": "bin/server.js",
+  "bin": {
+    "csws": "./bin/server.js"
+  },
+  "scripts": {
+    "test": "node ./bin/server.js www 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icecola2018/colasws"
+  },
+  "bugs": "icecola2018@gmail.com",
+  "author": "Ice Cola <icecola2018@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "files": [
+    "bin/",
+    "app.js",
+    "www/"
+  ]
+}
