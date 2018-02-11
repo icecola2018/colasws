@@ -1,5 +1,5 @@
 {
-  "name": "colasws",
+  "name": "cola-static-web-server",
   "version": "1.0.0",
   "description": "Cola Static Web Server",
   "preferGlobal": true,
